@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KmTOmiles</string>
+    <string name="milles">miles</string>
+    <string name="terrestres">ground</string>
+    <string name="Kilòmetres">kilometers</string>
+    <string name="Escriu">Write</string>
+    <string name="les">the</string>
+</resources>

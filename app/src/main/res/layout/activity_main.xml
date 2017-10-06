@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jordi1985.conversor.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="184dp"
+        android:layout_height="51dp"
+        android:text="Milles terrestres:"
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/edit_mill"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <EditText
+        android:id="@+id/edit_mill"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btn_a_km"
+        android:layout_width="143dp"
+        android:layout_height="51dp"
+        android:text="A kilòmetres"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/edit_mill"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="126dp"
+        android:layout_height="51dp"
+        android:text="Kilòmetres:"
+        android:textSize="24sp"
+        app:layout_constraintRight_toLeftOf="@+id/btn_a_mill"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/edit_km"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mill"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <EditText
+        android:id="@+id/edit_km"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btn_a_mill"
+        android:layout_width="143dp"
+        android:layout_height="51dp"
+        android:text="A MILLES"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/edit_km"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mill"
+        app:layout_constraintVertical_bias="0.495" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KmAMilles</string>
+    <string name="milles">milles</string>
+    <string name="terrestres">terrestres</string>
+    <string name="Kilòmetres">kilòmetres</string>
+    <string name="Escriu">Escriu</string>
+    <string name="les">les</string>
+</resources>
